@@ -7,20 +7,26 @@
 </head>
 <script src="main.js" charset="utf-8" type="text/javascript"></script>
 <body>
+
     <div id="MainValue">
         <p id="ActualVal">0 Stars</p>
     </div>
+
     <div id="buttonlayer">
         <button onclick="Tab1()">Main</button>
         <button style="display: none;" id="Tab2butt" onclick="Tab2()">???</button>
         <button onclick="Tab3()">Objectives</button>
     </div>
+
     <div id="Tab1">
         <button onclick="AddStar()">Create Star</button>
         <button style="margin-left: 2px;" onclick="CollapseStars()" id="csb">Collapse Stars</button>
     </div>
+
     <div style="display: none;" id="Tab2">
+        <p id="Coins">0 Coins</p>
     </div>
+
     <div style="display: none;" id="Tab3">
         <p>1. Get 5 Stars</p>
         <p>2. Collapse them</p>
