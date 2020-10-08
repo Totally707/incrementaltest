@@ -48,9 +48,3 @@ function Tab2() {
     document.getElementById("Tab2").style.display = "block"
     document.getElementById("Tab3").style.display = "none"
 }
-
-function Tab3() {
-    document.getElementById("Tab1").style.display = "none"
-    document.getElementById("Tab2").style.display = "none"
-    document.getElementById("Tab3").style.display = "block"
-}
